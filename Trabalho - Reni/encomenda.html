@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Encomenda</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <link rel="stylesheet" type="text/css" href="encomenda.css" />
+  </head>
+  <body>
+    <div class="topnav">
+        <a href="home.html">Home</a>
+        <a href="contatos.html">Contatos</a>
+        <a class="active" href="encomenda.html">Faça sua encomenda</a>
+        <a href="produtos.html">Produtos</a>
+      </div>
+      <div>
+        <H1>QUER FAZER UMA ENCOMENDA?</H1>
+        <h2>Preencha o formulário ao lado:</h2>
+      </div>
+      <form>
+        <fieldset>
+          <div>
+            <label for="seunome">Nome:*</label>
+            <input type="text" name="seunome" id="seunome" />
+          </div>
+          <div>
+            <label for="sobrenome">Sobrenome:*</label>
+            <input type="Text" name="Sobrenome" id="sobrenome" />
+          </div>
+          <div>
+            <label>E-mail para contato:*</label>
+            <input
+              type="E-mail"
+              name="e-mail
+          "
+              id="e-mail"
+            />
+          </div>
+  
+          <div>
+            <label>Esta encomenda é um presente?</label>
+            <label> <input type="radio" name="devweb" value="Sim" />Sim </label>
+            <label> <input type="radio" name="devweb" value="Não" />Não </label>
+          </div>
+  
+          <div>
+            <label>Você gostaria de mandar um recado especial?</label>
+            <select id="Você usa de alguma dessas técnicas?">
+              <option>-</option>
+              <option>Sim</option>
+              <option>Não</option>
+            </select>
+          </div>
+          <div>
+            <br />
+            <label>O que você gostaria de encomendar? Nos diga detalhadamente como você gostaria que fosse feito o seu pedido.</label>
+            <textarea
+              row="6"
+              style="width: 26em"
+              id="experiencia"
+              name="experiência"
+            >
+            </textarea>
+          </div>
+          <button type="submit">Concluído</button>
+        </fieldset>
+      </form>
+  </body>
+</html>
