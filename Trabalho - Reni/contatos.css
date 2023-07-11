@@ -26,7 +26,8 @@ h2 {
 }
 h1 {
   color: rgb(60, 60, 180);
-  font-family: "Impact";}
+  font-family: "Impact";
+}
   :root{
     --color-neutral-0: #0e0c0c; 
     --color-neutral-10: #171717;
