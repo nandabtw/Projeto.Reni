@@ -1,2 +1,2 @@
 # Projeto.Reni
-Site de loja de action figures.
+Geek Store a melhor loja de action figures e cultura Nerd de Passos e Região.
